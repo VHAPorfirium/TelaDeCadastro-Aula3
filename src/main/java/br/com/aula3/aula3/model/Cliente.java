@@ -16,5 +16,5 @@ public class Cliente {
     private String cpf;
     private String telefone;
     private String endereco;
-    
+
 }
