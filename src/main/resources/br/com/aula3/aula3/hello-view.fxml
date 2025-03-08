@@ -21,8 +21,8 @@
       <TextField fx:id="tx_endereco" layoutX="163.0" layoutY="201.0" prefHeight="35.0" prefWidth="685.0" />
       <TextField fx:id="tx_cpf" layoutX="163.0" layoutY="266.0" prefHeight="35.0" prefWidth="685.0" />
       <TextField fx:id="tx_telefone" layoutX="163.0" layoutY="335.0" prefHeight="35.0" prefWidth="685.0" />
-      <Button fx:id="bt_salvar" layoutX="163.0" layoutY="470.0" mnemonicParsing="false" text="Salvar" />
-      <Button fx:id="bt_limpar" layoutX="479.0" layoutY="470.0" mnemonicParsing="false" text="Limpar" />
-      <Button fx:id="bt_sair" layoutX="812.0" layoutY="470.0" mnemonicParsing="false" text="Sair" />
+      <Button fx:id="bt_salvar" layoutX="163.0" layoutY="470.0" mnemonicParsing="false" onAction="#salvar" text="Salvar" />
+      <Button fx:id="bt_limpar" layoutX="479.0" layoutY="470.0" mnemonicParsing="false" onAction="#limpar" text="Limpar" />
+      <Button fx:id="bt_sair" layoutX="812.0" layoutY="470.0" mnemonicParsing="false" onAction="#sair" text="Sair" />
    </children>
 </Pane>
